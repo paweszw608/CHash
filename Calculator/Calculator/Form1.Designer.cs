@@ -172,7 +172,7 @@
             // 
             // buttonResult
             // 
-            this.buttonResult.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.buttonResult.BackColor = System.Drawing.Color.Transparent;
             this.buttonResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.buttonResult.Location = new System.Drawing.Point(228, 182);
             this.buttonResult.Name = "buttonResult";
@@ -206,9 +206,9 @@
             // 
             // ResultTextBox
             // 
-            this.ResultTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.ResultTextBox.BackColor = System.Drawing.Color.Silver;
             this.ResultTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.ResultTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.ResultTextBox.ForeColor = System.Drawing.Color.Black;
             this.ResultTextBox.Location = new System.Drawing.Point(12, 12);
             this.ResultTextBox.Multiline = true;
             this.ResultTextBox.Name = "ResultTextBox";
@@ -253,7 +253,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(335, 252);
             this.Controls.Add(this.buttonBackSpace);
             this.Controls.Add(this.buttonClear);

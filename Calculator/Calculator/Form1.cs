@@ -12,6 +12,7 @@ namespace Calculator
 {
     public partial class Calculator : Form
     {
+        public delegate float Math(float x, float y);
         public Calculator()
         {
             InitializeComponent();
@@ -109,37 +110,38 @@ namespace Calculator
                 else secondNumber = float.Parse(ResultTextBox.Text);
             }
 
-
+            
             ResultTextBox.Clear();
+            Math Calc = new Math(add); ;
             switch (type)
             {
+                
                 case 1: // add
                     {
-                        resultText = add(firstNumber, secondNumber).ToString();
+                        Calc = new Math(add);
                         break;
                     }
                 case 2: // sub
                     {
-                        resultText = substract(firstNumber, secondNumber).ToString();
+                        Calc = new Math(substract);
                         break;
                     }
                 case 3: // multiply
                     {
-                        resultText = multiply(firstNumber, secondNumber).ToString();
+                        Calc = new Math(multiply);
                         break;
                     }
                 case 4: // divide
                     {
-                        resultText = divide(firstNumber, secondNumber).ToString();
+                        Calc = new Math(divide);
                         break;
                     }
                 default: break;
                 
             }
 
-
-
-            ResultTextBox.Text = resultText;
+         
+            ResultTextBox.Text = Convert.ToString(Calc(firstNumber, secondNumber));
             equalSignClicked = true;
 
             
@@ -177,8 +179,7 @@ namespace Calculator
 
         private float divide(float x, float y)
         {
-            if (y != 0) return (x / y);
-            else return 0;
+            return x / y;          
         }
 
         private void calculate(float number)
@@ -203,6 +204,7 @@ namespace Calculator
             }
             
         }
+
 
 
     }
