@@ -1,0 +1,12 @@
+C:\Users\Pablo\Documents\C#\StudentDiary\StudentDiary\obj\Debug\StudentDiary.csprojAssemblyReference.cache
+C:\Users\Pablo\Documents\C#\StudentDiary\StudentDiary\obj\Debug\StudentDiary.Properties.Resources.resources
+C:\Users\Pablo\Documents\C#\StudentDiary\StudentDiary\obj\Debug\StudentDiary.csproj.GenerateResource.cache
+C:\Users\Pablo\Documents\C#\StudentDiary\StudentDiary\obj\Debug\StudentDiary.csproj.CoreCompileInputs.cache
+C:\Users\Pablo\Documents\C#\StudentDiary\StudentDiary\bin\Debug\StudentDiary.mdf
+C:\Users\Pablo\Documents\C#\StudentDiary\StudentDiary\bin\Debug\StudentDiary_log.ldf
+C:\Users\Pablo\Documents\C#\StudentDiary\StudentDiary\bin\Debug\StudentDiary.exe.config
+C:\Users\Pablo\Documents\C#\StudentDiary\StudentDiary\bin\Debug\StudentDiary.exe
+C:\Users\Pablo\Documents\C#\StudentDiary\StudentDiary\bin\Debug\StudentDiary.pdb
+C:\Users\Pablo\Documents\C#\StudentDiary\StudentDiary\obj\Debug\StudentDiary.exe
+C:\Users\Pablo\Documents\C#\StudentDiary\StudentDiary\obj\Debug\StudentDiary.pdb
+C:\Users\Pablo\Documents\C#\StudentDiary\StudentDiary\obj\Debug\StudentDiary.mainForm.resources
